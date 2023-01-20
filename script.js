@@ -1,2 +1,3 @@
-let password = 123 + 1 
-console.log(password)
+let password = -123 
+let password1 = 123.2
+console.log(password,password1)
