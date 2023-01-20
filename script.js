@@ -1,2 +1,2 @@
-let password = "123" +1
+let password = 123 + 1 
 console.log(password)
