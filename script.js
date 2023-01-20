@@ -1,3 +1,3 @@
-let password = -123 
-let password1 = 123.2
+let password = true
+let password1 = false
 console.log(password,password1)
