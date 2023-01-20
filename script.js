@@ -1,3 +1,7 @@
-let password = true
-let password1 = false
-console.log(password,password1)
+let password = 1
+password = password + 2
+
+console.log(password)
+
+//퀴즈 
+//예상 답안 3 
