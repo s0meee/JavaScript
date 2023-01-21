@@ -24,3 +24,8 @@ fruit.indexOf("apple")
 //아이템의 인덱스를 찾아줌 
 console.log(fruit.indexOf("apple")) 
 //apple의 인덱스 찾아줌
+
+console.log(fruit.slice(2)) 
+//인덱스 2 이후의 값은 모두 잘라버리기 
+//잘라진 값이 출력됨
+// 0, 1, 2
