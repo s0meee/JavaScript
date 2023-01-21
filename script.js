@@ -25,16 +25,12 @@ fruit.indexOf("apple")
 console.log(fruit.indexOf("apple")) 
 //apple의 인덱스 찾아줌
 
-console.log(fruit.slice(2)) 
-//인덱스 2 이후의 값은 모두 잘라버리기 
-//잘라진 값이 출력됨
-// 0,1는 잘려나가짐
+//slice : 배열의 아이템을 잘라내는 역할 (시작점, 끝점 - 끝점 미포함)
+//기존배열을 건드리지 않고, 새로운 배열을 만든다.
+let extrafruit = fruit.slice(1,3)
+console.log(extrafruit)
 
-console.log(fruit.slice(1,3)) 
-//시작점,끝점
-//끝점앞까지만 출력됨
-
-fruit.splice(2,1)
-//(시작점,갯수)
-//2부터 시작해서 1개 제거
+//splice : 배열 아이템 잘라내는 역할 (시작점, 개수)
+//기존의 배열이 잘라진다.
+fruit.splice(0,2)
 console.log(fruit)
