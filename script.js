@@ -1,1 +1,5 @@
-array
+let fruit1 = "banana"
+let fruit2 = "apple"
+let fruit3 = "Strawberry"
+let fruit4 = "mango"
+let fruit5 = "grape"
