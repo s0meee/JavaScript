@@ -1,1 +1,2 @@
-Hosting: The difference between let and var
+var a = 1
+console.log(a) 
