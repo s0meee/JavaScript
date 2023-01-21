@@ -33,3 +33,8 @@ console.log(fruit.slice(2))
 console.log(fruit.slice(1,3)) 
 //시작점,끝점
 //끝점앞까지만 출력됨
+
+fruit.splice(2,1)
+//(시작점,갯수)
+//2부터 시작해서 1개 제거
+console.log(fruit)
