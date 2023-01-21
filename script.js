@@ -28,4 +28,8 @@ console.log(fruit.indexOf("apple"))
 console.log(fruit.slice(2)) 
 //인덱스 2 이후의 값은 모두 잘라버리기 
 //잘라진 값이 출력됨
-// 0, 1, 2
+// 0,1는 잘려나가짐
+
+console.log(fruit.slice(1,3)) 
+//시작점,끝점
+//끝점앞까지만 출력됨
