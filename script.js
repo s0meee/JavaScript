@@ -1,36 +1,117 @@
-let fruit1 = "banana"
-let fruit2 = "apple"
-let fruit3 = "Strawberry"
-let fruit4 = "mango"
-let fruit5 = "grape"
+let animals= [
+    "Aardvark",
+    "Albatross",
+    "Alligator",
+    "Alpaca",
+    "Ant",
+    "Ape",
+    "Armadillo",
+    "Donkey",
+    "Baboon",
+    "Badger",
+    "Barracuda",
+    "Bat",
+    "Bear",
+    "Beaver",
+    "Bee",
+    "Bison",
+    "Cat",
+    "Caterpillar",
+    "Cattle",
+    "Chamois",
+    "Cheetah",
+    "Chicken",
+    "Chimpanzee",
+    "Chinchilla",
+    "Chough",
+    "Clam",
+    "Cobra",
+    "Cockroach",
+    "Cod",
+    "Cormorant",
+    "Dugong",
+    "Dunlin",
+    "Eagle",
+    "Echidna",
+    "Eel",
+    "Eland",
+    "Elephant",
+    "Elk",
+    "Emu",
+    "Falcon",
+    "Ferret",
+    "Finch",
+    "Fish",
+    "Flamingo",
+    "Fly",
+    "Fox",
+    "Frog",
+    "Gaur", 
+    "Gazelle",
+    "Gerbil",
+    "Giraffe",
+    "Grasshopper",
+    "Heron",
+    "Herring",
+    "Hippopotamus",
+    "Hornet",
+    "Horse",
+    "Kangaroo",
+    "Kingfisher",
+    "Koala",
+    "Kookabura",
+    "Moose",
+    "Narwhal",
+    "Newt",
+    "Nightingale",
+    "Octopus",
+    "Okapi",
+    "Opossum", 
+    "Quail",
+    "Quelea",
+    "Quetzal",
+    "Rabbit", 
+    "Raccoon",
+    "Rail",
+    "Ram",
+    "Rat",
+    "Raven",
+    "Red deer",
+    "Sandpiper",
+    "Sardine",
+    "Sparrow",
+    "Spider",
+    "Spoonbill",
+    "Squid",
+    "Squirrel",
+    "Starling",
+    "Stingray",
+    "Tiger",
+    "Toad",
+    "Whale",
+    "Wildcat",
+    "Wolf",
+    "Worm",
+    "Wren",
+    "Yak",
+    "Zebra"
+]
+ 
+//어레이에 마지막 아이템 “Zebra” 제거하기
 
-let fruit = ["banana","apple","Strawberry","mango","grape"]
+//주어진 어레이에 “Dog” 추가하기
 
-console.log(fruit)
-console.log(fruit[3])
+//주어진 어레이에 “Mosquito”,“Mouse”,“Mule” 추가하기
 
+//해당 어레이에는 "Human"이 있는가?
 
-//pop() : 마지막에 있는 아이템을 뺌
-fruit.pop()
-console.log(fruit) //마지막에 있던 grape가 사라짐
-fruit.push("pineapple")
-console.log(fruit) //마지막에 pineapple이 들어감
+//해당 어레이에는 “Cat” 이 있는가?
 
-//includes : 아이템이 있는지 없는지 확인 
-console.log(fruit.includes("apple")) //apple 있는지 확인하기
-console.log(fruit.includes("pear")) //pear 있는지 확인하기
+//"Red deer"을 "Deer"로 바꾸시오
 
-fruit.indexOf("apple")
-//아이템의 인덱스를 찾아줌 
-console.log(fruit.indexOf("apple")) 
-//apple의 인덱스 찾아줌
+//"Spider"부터 3개의 아이템을 기존 어레이에서 제거하시오
 
-//slice : 배열의 아이템을 잘라내는 역할 (시작점, 끝점 - 끝점 미포함)
-//기존배열을 건드리지 않고, 새로운 배열을 만든다.
-let extrafruit = fruit.slice(1,3)
-console.log(extrafruit)
+//"Tiger"이후의 값을 제거하시오
 
-//splice : 배열 아이템 잘라내는 역할 (시작점, 개수)
-//기존의 배열이 잘라진다.
-fruit.splice(0,2)
-console.log(fruit)
+//"B"로 시작되는 아이템인 "Baboon"부터 "Bison"까지 가져와 새로운 어레이에 저장하시오
+
