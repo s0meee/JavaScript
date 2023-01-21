@@ -15,5 +15,12 @@ fruit.pop()
 console.log(fruit) //마지막에 있던 grape가 사라짐
 fruit.push("pineapple")
 console.log(fruit) //마지막에 pineapple이 들어감
+
+//includes : 아이템이 있는지 없는지 확인 
 console.log(fruit.includes("apple")) //apple 있는지 확인하기
 console.log(fruit.includes("pear")) //pear 있는지 확인하기
+
+fruit.indexOf("apple")
+//아이템의 인덱스를 찾아줌 
+console.log(fruit.indexOf("apple")) 
+//apple의 인덱스 찾아줌
