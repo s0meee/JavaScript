@@ -6,7 +6,6 @@ let patient = {
 } 
 
 console.log(patient)
-console.log(patient.name)//이름만 보고 싶을 경우 
-//객체.키값 
-// { 키 값 : 값}
+console.log(patient.name)
 console.log(patient.age)
+console.log(patient["age"])
