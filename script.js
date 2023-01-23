@@ -1,13 +1,9 @@
-let age = 21
-let licence = false
+//3번을 위해 제공됨
+input : let skills = ["HTML","CSS","Javascript","React"]
+output: 합격 
 
-if(age>20){
-  if(licence != true){
-    console.log("운전이 가능 합니다.")
-  }else{
-    console.log("면허를 따세용")
-  }
-}else{
-  console.log("운전이 불가능합니다.")
-}
-// ! NOT
+input:let skills = ["HTML","CSS","Javascript"] 
+output: 예비 
+
+input:let skills = ["HTML","CSS"] 
+output: 탈락 
